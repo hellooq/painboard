@@ -2,7 +2,7 @@
 // - 페이지(HTML): 네트워크 우선, 오프라인이면 마지막으로 받은 페이지를 보여줌
 // - 아이콘/manifest: 캐시 우선
 // - Supabase, 구글 애널리틱스 등 다른 도메인 요청과 GET 이외 요청은 건드리지 않음
-const VERSION = 'pb-v1';
+const VERSION = 'pb-v2';
 const PRECACHE = ['/', '/manifest.webmanifest', '/icons/icon-192.png', '/icons/icon-512.png'];
 
 self.addEventListener('install', (event) => {
